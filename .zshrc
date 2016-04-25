@@ -14,6 +14,10 @@ alias psg="ps aux | grep"
 alias h="history"
 alias e="emacs"
 alias vi="vim"
+alias wu="ansiweather -l Ulm,Germany -f 10"
+alias wh="ansiweather -l Hyderabad,India -f 10"
+alias wc="ansiweather -l Edison,New Jersey -f 10"
+
 
 # Git
 alias gs="git status"
@@ -56,9 +60,10 @@ plugins=(git brew virtualenvwrapper zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 source /home/sirishkumar/.oh-my-zsh/custom/plugins/opp.zsh/opp.zsh
 source /usr/share/autojump/autojump.zsh
+source /home/sirishkumar/work/tools/ansiweather/ansiweather.plugin.zsh
 
 # Vars
-export PATH=/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/Users/dblack/code/pytwilio.fab/venv/bin:/usr/local/sbin
+export PATH=/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/Users/dblack/code/pytwilio.fab/venv/bin:/usr/local/sbin:/usr/local/go/bin
 export REALM=dev
 export SVN_EDITOR=/usr/bin/vi
 export WORKON_HOME=$HOME/.virtualenvs
