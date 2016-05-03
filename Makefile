@@ -8,6 +8,7 @@ install:
 	cp .githelpers ../
 	cp .slate ../
 	cp .tmux.conf ../
+	cp -rf tools ../
 
 update:
 	cp -rf ~/.vim .
@@ -15,4 +16,5 @@ update:
 	cp ~/.githelpers .
 	cp ~/.slate .
 	cp .tmux.conf ../
+	cp -rf tools ../
 

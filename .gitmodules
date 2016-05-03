@@ -79,3 +79,6 @@
 [submodule ".vim/bundle/ag.vim"]
 	path = .vim/bundle/ag.vim
 	url = https://github.com/rking/ag.vim.git
+[submodule "tools/tmux-fpp"]
+	path = tools/tmux-fpp
+	url = https://github.com/tmux-plugins/tmux-fpp
