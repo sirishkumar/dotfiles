@@ -60,6 +60,8 @@ xnoremap il :<c-u>call <SID>NextTextObject('i', 'F')<cr>
 let mapleader=","
 nnoremap <leader>m :silent make\|redraw!\|cw<CR>
 nnoremap <leader>w :NERDTree<CR>
+nnoremap <leader>n :NERDTreeFind<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <leader>u :GundoToggle<CR>
 nnoremap <leader>h :A<CR>
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
