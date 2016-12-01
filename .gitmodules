@@ -82,3 +82,6 @@
 [submodule "tools/tmux-fpp"]
 	path = tools/tmux-fpp
 	url = https://github.com/tmux-plugins/tmux-fpp
+[submodule ".vim/bundle/dash.vim"]
+	path = .vim/bundle/dash.vim
+	url = https://github.com/rizzatti/dash.vim.git

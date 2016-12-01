@@ -17,6 +17,8 @@ alias vi="vim"
 alias wu="ansiweather -l Ulm,Germany -f 10"
 alias wh="ansiweather -l Hyderabad,India -f 10"
 alias wc="ansiweather -l Edison,New Jersey -f 10"
+alias pys="cd /Users/user/Dropbox/Personal/Docs/Work/PyImageSearch"
+alias pysw="cd /Users/user/work/learning/opencv"
 
 
 # Git
@@ -119,3 +121,5 @@ export CR_COMMANDS_ENDPOINT=/usr/local/var/run/config-renderer/commands.sock
 export SD_SNAPSHOT_ENDPOINT=/usr/local/var/run/service-discovery/snapshot.sock
 export SD_UPDATES_ENDPOINT=/usr/local/var/run/service-discovery/updates.sock
 export SD_CACHE_PATH=/usr/local/var/lib/service-discovery/services.json
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
