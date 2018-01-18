@@ -64,7 +64,7 @@ source /usr/share/autojump/autojump.zsh
 #source /home/sirishkumar/work/tools/ansiweather/ansiweather.plugin.zsh
 
 # Vars
-export PATH=/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/Users/dblack/code/pytwilio.fab/venv/bin:/usr/local/sbin:/usr/local/go/bin
+export PATH=/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/Users/dblack/code/pytwilio.fab/venv/bin:/usr/local/sbin:/usr/local/go/bin:/home/robinos/tools/PathPicker
 export REALM=dev
 export SVN_EDITOR=/usr/bin/vi
 export WORKON_HOME=$HOME/.virtualenvs
