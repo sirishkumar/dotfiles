@@ -76,9 +76,6 @@
 [submodule ".vim/bundle/vim-airline-themes"]
 	path = .vim/bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
-[submodule ".vim/bundle/ag.vim"]
-	path = .vim/bundle/ag.vim
-	url = https://github.com/rking/ag.vim.git
 [submodule "tools/tmux-fpp"]
 	path = tools/tmux-fpp
 	url = https://github.com/tmux-plugins/tmux-fpp
