@@ -64,8 +64,6 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets root)
 
 plugins=(git brew virtualenvwrapper zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
-source /usr/share/autojump/autojump.zsh
-#source /home/sirishkumar/work/tools/ansiweather/ansiweather.plugin.zsh
 
 # Vars
 export PATH=/root/anaconda3/bin:/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/Users/dblack/code/pytwilio.fab/venv/bin:/usr/local/sbin:/usr/local/go/bin:~/tools/ansiweather/:~/tools/PathPicker
