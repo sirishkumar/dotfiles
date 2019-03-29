@@ -19,6 +19,10 @@ alias wh="ansiweather -l Hyderabad,India -f 10"
 alias wc="ansiweather -l Edison,New Jersey -f 10"
 alias pys="cd /Users/user/Dropbox/Personal/Docs/Work/PyImageSearch"
 alias pysw="cd /Users/user/work/learning/opencv"
+alias de="trans de:en"
+alias en="trans en:de"
+alias enhi="trans en:hi"
+alias hien="trans hi:en"
 
 
 # Git
