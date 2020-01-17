@@ -10,7 +10,7 @@ install:
 	cp .tmux.conf ~/
 	cp -rf tools ~/
 	cp -rf .gitconfig ~/
-	cp ~/dotfiles/tools/zsh/*.zsh /root/.oh-my-zsh/custom/
+	cp ~/dotfiles/tools/zsh/*.zsh ~/.oh-my-zsh/custom/
 
 update:
 	cp -rf ~/.vim .
